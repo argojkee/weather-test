@@ -1,5 +1,4 @@
 const { Schema, model } = require("mongoose");
-// const Joi = require("joi");
 const { handleMongooseError } = require("../../helpers");
 
 
@@ -51,16 +50,6 @@ const weatherSchema = new Schema({
       }
     },
 
-    coord: {
-      lat: {
-        type: Number,
-        required: true,
-      },
-      lon: {
-        type: String,
-        required: true,
-      }
-    },
     icon: {
       type: String,
       required: true

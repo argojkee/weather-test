@@ -13,7 +13,7 @@ async function getWeatherByCity (req, res, next) {
                 sunset: data.sys.sunset,
                 sunrise: data.sys.sunrise
             },
-            coord: undefined
+           
         }
         next()
         
