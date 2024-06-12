@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const WeatherModalStyles = styled.div`
 padding: 16px;
-width: 60vw;
+width: 70vw;
 display: flex;
 flex-direction: column;
 align-items: center;
